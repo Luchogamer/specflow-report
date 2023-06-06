@@ -1,0 +1,83 @@
+{
+  "uuid": "875af126edc048f58e158b5170f56ac6",
+  "historyId": "Put in a product by id",
+  "fullName": "Put in a product by id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WINDOWS"
+    },
+    {
+      "name": "feature",
+      "value": "PutItem"
+    },
+    {
+      "name": "tag",
+      "value": "PutOk"
+    }
+  ],
+  "links": [],
+  "name": "Put in a product by id",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a checked id",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686070718883,
+      "stop": 1686070719365
+    },
+    {
+      "name": "When  I send a put request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686070719365,
+      "stop": 1686070719819
+    },
+    {
+      "name": "Then  I got an OK code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686070719820,
+      "stop": 1686070719833
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686070718883,
+  "stop": 1686070719835
+}
