@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 06 20:16:11 GMT 2023","Tue Jun 06 20:16:12 GMT 2023","779","","","","","","Get some product by id",""
+"broken","Tue Jun 06 20:16:12 GMT 2023","Tue Jun 06 20:16:13 GMT 2023","704","","","","","","[Do a post call to put an item on the demo store]",""
+"passed","Tue Jun 06 20:16:13 GMT 2023","Tue Jun 06 20:16:13 GMT 2023","347","","","","","","Post to obtain the token of api",""
+"passed","Tue Jun 06 20:16:13 GMT 2023","Tue Jun 06 20:16:14 GMT 2023","343","","","","","","Put in a product by id",""
