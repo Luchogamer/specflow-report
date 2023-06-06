@@ -1,0 +1,83 @@
+{
+  "uuid": "3f9b729db43d4dbc8f7733daca71ec50",
+  "historyId": "Do a post call to put an item on the demo store",
+  "fullName": "Do a post call to put an item on the demo store",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az298-845"
+    },
+    {
+      "name": "feature",
+      "value": "postItem"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Do a post call to put an item on the demo store",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid auth token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686093019286,
+      "stop": 1686093019486
+    },
+    {
+      "name": "When  I do a call on a post request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686093019487,
+      "stop": 1686093019581
+    },
+    {
+      "name": "Then  I got a valid Ok code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686093019581,
+      "stop": 1686093019583
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686093019286,
+  "stop": 1686093019583
+}
