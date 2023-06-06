@@ -1,0 +1,84 @@
+{
+  "uuid": "3646789861294fd5aa4f8a218868c00d",
+  "historyId": "[Do a post call to put an item on the demo store]",
+  "fullName": "[Do a post call to put an item on the demo store]",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WINDOWS"
+    },
+    {
+      "name": "feature",
+      "value": "postItem"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "[Do a post call to put an item on the demo store]",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid auth token",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686068984908,
+      "stop": 1686068985480
+    },
+    {
+      "name": "When  I do a call on a post request",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686068985481,
+      "stop": 1686068985486
+    },
+    {
+      "name": "Then  I got a valid Ok code response",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686068985486,
+      "stop": 1686068985490
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686068984908,
+  "stop": 1686068985611
+}
