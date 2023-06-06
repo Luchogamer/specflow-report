@@ -1,0 +1,83 @@
+{
+  "uuid": "b99acb600b8045f7855831c8a45632dd",
+  "historyId": "Get some product by id",
+  "fullName": "Get some product by id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az313-526"
+    },
+    {
+      "name": "feature",
+      "value": "Get posts"
+    },
+    {
+      "name": "tag",
+      "value": "getOk"
+    }
+  ],
+  "links": [],
+  "name": "Get some product by id",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid id",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686092891636,
+      "stop": 1686092891662
+    },
+    {
+      "name": "When  Isend a get request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686092891662,
+      "stop": 1686092892077
+    },
+    {
+      "name": "Then  I spected a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686092892077,
+      "stop": 1686092892090
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686092891628,
+  "stop": 1686092892092
+}

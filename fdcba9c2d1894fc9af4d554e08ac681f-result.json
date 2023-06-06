@@ -1,0 +1,83 @@
+{
+  "uuid": "a3bcf0148549499b9a325a31ed8783b3",
+  "historyId": "Post to obtain the token of api",
+  "fullName": "Post to obtain the token of api",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az313-526"
+    },
+    {
+      "name": "feature",
+      "value": "PostToken"
+    },
+    {
+      "name": "tag",
+      "value": "PostTokenOk"
+    }
+  ],
+  "links": [],
+  "name": "Post to obtain the token of api",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid url",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686092892364,
+      "stop": 1686092892366
+    },
+    {
+      "name": "When  I send a post request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686092892366,
+      "stop": 1686092892463
+    },
+    {
+      "name": "Then  I got a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686092892463,
+      "stop": 1686092892464
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686092892364,
+  "stop": 1686092892464
+}
