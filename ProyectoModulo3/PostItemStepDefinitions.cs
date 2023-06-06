@@ -13,7 +13,7 @@ namespace ProyectoModulo3
         RestRequest request = new RestRequest("api/product", Method.Post);
         RestResponse response;
 
-        [Given(@"\[I have a valid auth token]")]
+        [Given(@"I have a valid auth token")]
         public void GivenIHaveAValidAuthToken()
         {
             string authToken = GetAuthToken();
@@ -32,13 +32,13 @@ namespace ProyectoModulo3
             });
         }
 
-        [When(@"\[I do a call on a post request]")]
+        [When(@"I do a call on a post request")]
         public void WhenIDoACallOnAPostRequest()
         {
             response = client.ExecutePost(request);
         }
 
-        [Then(@"\[I got a valid Ok code response]")]
+        [Then(@"I got a valid Ok code response")]
         public void ThenIGotAValidOkCodeResponse()
         {
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
