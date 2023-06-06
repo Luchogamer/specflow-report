@@ -35,7 +35,7 @@ namespace ProyectoModulo3
         [When(@"\[I do a call on a post request]")]
         public void WhenIDoACallOnAPostRequest()
         {
-            var response = client.ExecutePost(request);
+            response = client.ExecutePost(request);
         }
 
         [Then(@"\[I got a valid Ok code response]")]
