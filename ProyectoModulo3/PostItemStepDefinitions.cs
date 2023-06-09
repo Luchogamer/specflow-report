@@ -12,8 +12,7 @@ namespace ProyectoModulo3
         RestClient client = new RestClient("http://demostore.gatling.io/");
         RestRequest request = new RestRequest("api/product", Method.Post);
         RestResponse response;
-
-        [Given(@"I have a valid auth token")]
+        [Given(@"\[I have a valid auth token]")]
         public void GivenIHaveAValidAuthToken()
         {
             string authToken = GetAuthToken();
@@ -32,17 +31,16 @@ namespace ProyectoModulo3
             });
         }
 
-        [When(@"I do a call on a post request")]
+        [When(@"\[I do a call on a post request]")]
         public void WhenIDoACallOnAPostRequest()
         {
-            response = client.ExecutePost(request);
+           response = client.ExecutePost(request);
         }
 
-        [Then(@"I got a valid Ok code response")]
-        public void ThenIGotAValidOkCodeResponse()
+        [Then(@"\[I got a valid ok response]")]
+        public void ThenIGotAValidOkResponse()
         {
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
-
         }
         private string GetAuthToken()
         {
@@ -60,3 +58,5 @@ namespace ProyectoModulo3
         }
     }
 }
+
+
