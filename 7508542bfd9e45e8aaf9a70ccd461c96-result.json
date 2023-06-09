@@ -1,0 +1,83 @@
+{
+  "uuid": "0c77e0d6fb3b4e7b9410b8f1e8da0504",
+  "historyId": "[I do a post call in the url]",
+  "fullName": "[I do a post call in the url]",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az488-108"
+    },
+    {
+      "name": "feature",
+      "value": "postItem"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "[I do a post call in the url]",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  [I have a valid auth token]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686324585918,
+      "stop": 1686324586121
+    },
+    {
+      "name": "When  [I do a call on a post request]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686324586121,
+      "stop": 1686324586257
+    },
+    {
+      "name": "Then  [I got a valid ok response]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686324586257,
+      "stop": 1686324586258
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686324585918,
+  "stop": 1686324586258
+}
