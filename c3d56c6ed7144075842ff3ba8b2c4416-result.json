@@ -1,0 +1,83 @@
+{
+  "uuid": "d9b27b43adc041ee81b24b320c01d252",
+  "historyId": "Put in a product by id",
+  "fullName": "Put in a product by id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az400-262"
+    },
+    {
+      "name": "feature",
+      "value": "PutItem"
+    },
+    {
+      "name": "tag",
+      "value": "PutOk"
+    }
+  ],
+  "links": [],
+  "name": "Put in a product by id",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a checked id",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686324551013,
+      "stop": 1686324551030
+    },
+    {
+      "name": "When  I send a put request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686324551030,
+      "stop": 1686324551067
+    },
+    {
+      "name": "Then  I got an OK code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686324551067,
+      "stop": 1686324551067
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686324551013,
+  "stop": 1686324551068
+}
